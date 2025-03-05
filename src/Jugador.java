@@ -27,5 +27,8 @@ public class Jugador {
         return personajes.get(rand.nextInt(personajes.size()));
     }
 
+    public void setPersonajes(List<Personaje> personajes) {
+        this.personajes = personajes;
+    }
 
 }
